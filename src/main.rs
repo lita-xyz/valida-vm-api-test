@@ -65,4 +65,6 @@ fn main() {
   // Verification of a program that terminates with STOP opcode
   // and outputs something else than `b` must fail
   assert_eq!(verify_status_incorrect_statement, VerifyStatus::Failure);
+
+  println!("All checks completed successfully.");
 }
