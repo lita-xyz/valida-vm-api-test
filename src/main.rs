@@ -1,6 +1,6 @@
 #[cfg(target_arch = "x86_64")]
 use valida_vm_api_linux_x86::*;
-#[cfg(target_arch = "arm")]
+#[cfg(target_arch = "aarch64")]
 use valida_vm_api_linux_arm::*;
 use tempfile::NamedTempFile;
 use tmpfile_helper::*;
