@@ -21,7 +21,6 @@ fn main() {
       &program,
       stdout.as_ref(),
       stdin.as_ref(),
-      Default::default(),
       Default::default());
 
   // Check that program terminated with success, i.e. STOP opcode
@@ -36,7 +35,6 @@ fn main() {
       &program, proof.as_ref(),
       stdin.as_ref(),
       Default::default(),
-      Default::default(),
       Default::default());
 
   // Proving of a program that terminates with STOP opcode must succeed
@@ -46,7 +44,6 @@ fn main() {
       &program,
       proof.as_ref(),
       stdout.as_ref(),
-      Default::default(),
       Default::default(),
       Default::default());
 
@@ -58,7 +55,6 @@ fn main() {
       &program,
       proof.as_ref(),
       incorrect_stdout.as_ref(),
-      Default::default(),
       Default::default(),
       Default::default());
 
