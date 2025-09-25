@@ -265,9 +265,9 @@ checksum = "adb9e6ca4f869e1180728b7950e35922a7fc6397f7b641499e8f3ef06e50dc83"
 
 [[package]]
 name = "valida-vm-api-linux-arm"
-version = "0.10.0"
+version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d879625a5611cc4ab9ec1f9d85c600b2343e736a779a784b82f8f89b798bdc3a"
+checksum = "8833f2f310c0f41052b32d7e336c71afbb2fb44cff89deaec5182c03384eb268"
 dependencies = [
  "flate2",
  "rust-embed",
@@ -276,9 +276,9 @@ dependencies = [
 
 [[package]]
 name = "valida-vm-api-linux-x86"
-version = "0.10.0"
+version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9ad78c136e30d934536dec58bd72958a4a877e50b1d8208eb6e52b105942d89a"
+checksum = "b98c4e4a84934835572a64ea61807e9559c467d9e5bcd2b1d742337f5f534e80"
 dependencies = [
  "flate2",
  "rust-embed",
@@ -287,7 +287,7 @@ dependencies = [
 
 [[package]]
 name = "valida-vm-api-test"
-version = "0.1.0"
+version = "1.0.0"
 dependencies = [
  "tempfile",
  "valida-vm-api-linux-arm",
